@@ -1,1 +1,8 @@
-
+In this project I have use dMonte Carlo simulations to verify that the type I error rate for a two-sided t-test is 5% under different conditions. 
+Samples from three different distributions (Normal, Uniform, and t-distribution) with three different sample size settings were generated, 
+and I performed the t-test 1,000 times for each combination, and reported the estimated type I error rates. Finally, these rates were compared to the 
+nominal 5% level and discussed any discrepancies.
+From the Framingham Heart Study data, I estimated the p-value of a goodness-of-fit test using Monte Carlo simulations with 1,000 replicates and compared 
+it to the p-value reported in the previous project for the same test. Additionally, this p-value was compared with the p-value from the Shapiro-Wilk test.
+Linear Regression: detailed analysis of the relationship between systolic blood pressure (SBP) and body mass index (BMI) using data from the Framingham 
+Heart Study. Reported and interpreted various statistical measures and intervals, and compared different methods for estimating confidence intervals. 
