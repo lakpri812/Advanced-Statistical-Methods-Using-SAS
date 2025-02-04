@@ -1,1 +1,8 @@
-
+The following questions were answered:
+1) Fit a multiple linear regression model using all available predictors, perform regression diagnostics, and assess key regression assumptions using appropriate tests and plots.
+2) If any regression assumption is not met, apply a suitable transformation to the model, explain the steps taken, and evaluate the fit of the transformed model using relevant tests and statistics.
+3) Use the principle of extra sum of squares (type I and III SS) to identify and remove the least significant variables one at a time, and compare the tentative model with the initial model using appropriate tests and statistics.
+4) Identify the best model(s) using adjusted R², Cp, and BIC criteria, and compare models obtained through stepwise, forward, and backward selection methods.
+5) For one of the final models, report the coefficients of multiple determination, multiple correlation, partial correlation, and partial determination.
+6) Demonstrate the alternative interpretation of the largest coefficient of partial determination in terms of the coefficient of simple determination by fitting appropriate models and calculating R², and similarly for the coefficient of multiple determination.
+7) Use the final model to obtain 95% interval estimates for the mean response across the range of predictors, plot these intervals against each predictor, and add intervals for a new city's death rate and simultaneous confidence bands for the regression line, then compare the intervals.
