@@ -1,1 +1,17 @@
+The following questions were answered:
+1) Fit a full model for predicting uric acid levels using all explanatory variables and identify the best model(s) using the adjusted R² criterion.
+2) For the best models, check all regression assumptions, detect outliers and influential points, and assess collinearity using appropriate diagnostic tools.
+3) Fit a weighted least squares regression model with the same variables as the best model, iterate the process of estimating weights, and comment on the final results.
+4) Use iteratively reweighted least squares for robust regression with the Bisquare weight function and MAD, perform at least three iterations, and compare residuals, weights, and regression coefficients across iterations, including those from the OLS model.
 
+Bootstrap:
+Fit a simple linear regression model of uric acid on triglycerides and use nonparametric bootstrap with at least 1,000 resamples to perform inference on
+the regression coefficient, using both resampling of residuals and resampling of (X, Y). For each method, report the histogram and Q-Q plot of the 
+bootstrap distribution, bias and standard error, 2.5th and 97.5th percentiles, and 95% confidence intervals using normal approximation, basic bootstrap, 
+and percentile bootstrap, then compare these results with those from the simple linear regression output.
+
+Logistic Regression:
+Fit separate univariate logistic regression models for each predictor and select those with a p-value < 0.1, then fit a multiple logistic regression 
+model with these predictors and use the likelihood ratio test (LRT) to iteratively refine the model by removing non-significant predictors until all 
+remaining predictors are significant. Compare the final model with the full model using LRT, interpret the coefficients, and compare this model with 
+one obtained using a stepwise procedure.
